@@ -3,17 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8D4E43801EAD130A00BB0598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E437F1EAD130A00BB0598 /* AppDelegate.swift */; };
-		8D4E43821EAD130A00BB0598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E43811EAD130A00BB0598 /* ViewController.swift */; };
-		8D4E43851EAD130A00BB0598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E43831EAD130A00BB0598 /* Main.storyboard */; };
-		8D4E43871EAD130A00BB0598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E43861EAD130A00BB0598 /* Assets.xcassets */; };
-		8D4E438A1EAD130A00BB0598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E43881EAD130A00BB0598 /* LaunchScreen.storyboard */; };
 		8D4E43951EAD130A00BB0598 /* EzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E43941EAD130A00BB0598 /* EzyTests.swift */; };
 		8D4E43A01EAD130A00BB0598 /* EzyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E439F1EAD130A00BB0598 /* EzyUITests.swift */; };
+		8D4E44011EADFA2A00BB0598 /* Books.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E43EE1EADFA2A00BB0598 /* Books.storyboard */; };
+		8D4E44021EADFA2A00BB0598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E43F31EADFA2A00BB0598 /* LaunchScreen.storyboard */; };
+		8D4E44041EADFA3E00BB0598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E44031EADFA3E00BB0598 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +35,6 @@
 /* Begin PBXFileReference section */
 		8D4E437C1EAD130A00BB0598 /* Ezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4E437F1EAD130A00BB0598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D4E43811EAD130A00BB0598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D4E43841EAD130A00BB0598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8D4E43861EAD130A00BB0598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8D4E43891EAD130A00BB0598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D4E438B1EAD130A00BB0598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D4E43901EAD130A00BB0598 /* EzyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4E43941EAD130A00BB0598 /* EzyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzyTests.swift; sourceTree = "<group>"; };
@@ -47,6 +42,9 @@
 		8D4E439B1EAD130A00BB0598 /* EzyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4E439F1EAD130A00BB0598 /* EzyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzyUITests.swift; sourceTree = "<group>"; };
 		8D4E43A11EAD130A00BB0598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4E43EF1EADFA2A00BB0598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Books.storyboard; sourceTree = "<group>"; };
+		8D4E43F41EADFA2A00BB0598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D4E44031EADFA3E00BB0598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +95,11 @@
 		8D4E437E1EAD130A00BB0598 /* Ezy */ = {
 			isa = PBXGroup;
 			children = (
+				8D4E43AE1EADF83300BB0598 /* Assets */,
+				8D4E43AF1EADF83300BB0598 /* Domains */,
+				8D4E43C21EADF83300BB0598 /* Services */,
+				8D4E43C31EADF83300BB0598 /* Settings */,
 				8D4E437F1EAD130A00BB0598 /* AppDelegate.swift */,
-				8D4E43811EAD130A00BB0598 /* ViewController.swift */,
-				8D4E43831EAD130A00BB0598 /* Main.storyboard */,
-				8D4E43861EAD130A00BB0598 /* Assets.xcassets */,
-				8D4E43881EAD130A00BB0598 /* LaunchScreen.storyboard */,
 				8D4E438B1EAD130A00BB0598 /* Info.plist */,
 			);
 			path = Ezy;
@@ -123,6 +121,229 @@
 				8D4E43A11EAD130A00BB0598 /* Info.plist */,
 			);
 			path = EzyUITests;
+			sourceTree = "<group>";
+		};
+		8D4E43AE1EADF83300BB0598 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E44031EADFA3E00BB0598 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8D4E43AF1EADF83300BB0598 /* Domains */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43E51EADFA2A00BB0598 /* Authors */,
+				8D4E43E81EADFA2A00BB0598 /* Awards */,
+				8D4E43EB1EADFA2A00BB0598 /* Books */,
+				8D4E43F01EADFA2A00BB0598 /* Launch */,
+				8D4E43F51EADFA2A00BB0598 /* Ratings */,
+				8D4E43F81EADFA2A00BB0598 /* Reviewers */,
+				8D4E43FB1EADFA2A00BB0598 /* Reviews */,
+				8D4E43FE1EADFA2A00BB0598 /* Tutorials */,
+			);
+			path = Domains;
+			sourceTree = "<group>";
+		};
+		8D4E43C21EADF83300BB0598 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8D4E43C31EADF83300BB0598 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		8D4E43E51EADFA2A00BB0598 /* Authors */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43E61EADFA2A00BB0598 /* Logic */,
+				8D4E43E71EADFA2A00BB0598 /* UserInterface */,
+			);
+			path = Authors;
+			sourceTree = "<group>";
+		};
+		8D4E43E61EADFA2A00BB0598 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8D4E43E71EADFA2A00BB0598 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		8D4E43E81EADFA2A00BB0598 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43E91EADFA2A00BB0598 /* Logic */,
+				8D4E43EA1EADFA2A00BB0598 /* UserInterface */,
+			);
+			path = Awards;
+			sourceTree = "<group>";
+		};
+		8D4E43E91EADFA2A00BB0598 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8D4E43EA1EADFA2A00BB0598 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		8D4E43EB1EADFA2A00BB0598 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43EC1EADFA2A00BB0598 /* Logic */,
+				8D4E43ED1EADFA2A00BB0598 /* UserInterface */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		8D4E43EC1EADFA2A00BB0598 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8D4E43ED1EADFA2A00BB0598 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43EE1EADFA2A00BB0598 /* Books.storyboard */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		8D4E43F01EADFA2A00BB0598 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43F11EADFA2A00BB0598 /* Logic */,
+				8D4E43F21EADFA2A00BB0598 /* UserInterface */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		8D4E43F11EADFA2A00BB0598 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8D4E43F21EADFA2A00BB0598 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43F31EADFA2A00BB0598 /* LaunchScreen.storyboard */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		8D4E43F51EADFA2A00BB0598 /* Ratings */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43F61EADFA2A00BB0598 /* Logic */,
+				8D4E43F71EADFA2A00BB0598 /* UserInterface */,
+			);
+			path = Ratings;
+			sourceTree = "<group>";
+		};
+		8D4E43F61EADFA2A00BB0598 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8D4E43F71EADFA2A00BB0598 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		8D4E43F81EADFA2A00BB0598 /* Reviewers */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43F91EADFA2A00BB0598 /* Logic */,
+				8D4E43FA1EADFA2A00BB0598 /* UserInterface */,
+			);
+			path = Reviewers;
+			sourceTree = "<group>";
+		};
+		8D4E43F91EADFA2A00BB0598 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8D4E43FA1EADFA2A00BB0598 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		8D4E43FB1EADFA2A00BB0598 /* Reviews */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43FC1EADFA2A00BB0598 /* Logic */,
+				8D4E43FD1EADFA2A00BB0598 /* UserInterface */,
+			);
+			path = Reviews;
+			sourceTree = "<group>";
+		};
+		8D4E43FC1EADFA2A00BB0598 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8D4E43FD1EADFA2A00BB0598 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		8D4E43FE1EADFA2A00BB0598 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43FF1EADFA2A00BB0598 /* Logic */,
+				8D4E44001EADFA2A00BB0598 /* UserInterface */,
+			);
+			path = Tutorials;
+			sourceTree = "<group>";
+		};
+		8D4E43FF1EADFA2A00BB0598 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8D4E44001EADFA2A00BB0598 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserInterface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +432,7 @@
 				};
 			};
 			buildConfigurationList = 8D4E43771EAD130A00BB0598 /* Build configuration list for PBXProject "Ezy" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -235,9 +456,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4E438A1EAD130A00BB0598 /* LaunchScreen.storyboard in Resources */,
-				8D4E43871EAD130A00BB0598 /* Assets.xcassets in Resources */,
-				8D4E43851EAD130A00BB0598 /* Main.storyboard in Resources */,
+				8D4E44011EADFA2A00BB0598 /* Books.storyboard in Resources */,
+				8D4E44041EADFA3E00BB0598 /* Assets.xcassets in Resources */,
+				8D4E44021EADFA2A00BB0598 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +483,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4E43821EAD130A00BB0598 /* ViewController.swift in Sources */,
 				8D4E43801EAD130A00BB0598 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,18 +519,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8D4E43831EAD130A00BB0598 /* Main.storyboard */ = {
+		8D4E43EE1EADFA2A00BB0598 /* Books.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8D4E43841EAD130A00BB0598 /* Base */,
+				8D4E43EF1EADFA2A00BB0598 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Books.storyboard;
 			sourceTree = "<group>";
 		};
-		8D4E43881EAD130A00BB0598 /* LaunchScreen.storyboard */ = {
+		8D4E43F31EADFA2A00BB0598 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8D4E43891EAD130A00BB0598 /* Base */,
+				8D4E43F41EADFA2A00BB0598 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -423,6 +643,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iiibplus.Ezy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -436,6 +657,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iiibplus.Ezy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -516,6 +738,7 @@
 				8D4E43A61EAD130A00BB0598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D4E43A71EAD130A00BB0598 /* Build configuration list for PBXNativeTarget "EzyTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +747,7 @@
 				8D4E43A91EAD130A00BB0598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D4E43AA1EAD130A00BB0598 /* Build configuration list for PBXNativeTarget "EzyUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +756,7 @@
 				8D4E43AC1EAD130A00BB0598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
