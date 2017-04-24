@@ -13,6 +13,22 @@
 		8D4E44011EADFA2A00BB0598 /* Books.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E43EE1EADFA2A00BB0598 /* Books.storyboard */; };
 		8D4E44021EADFA2A00BB0598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E43F31EADFA2A00BB0598 /* LaunchScreen.storyboard */; };
 		8D4E44041EADFA3E00BB0598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E44031EADFA3E00BB0598 /* Assets.xcassets */; };
+		8D4E44061EADFC6600BB0598 /* CoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E44051EADFC6600BB0598 /* CoreService.swift */; };
+		8D4E440A1EADFCB000BB0598 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E44091EADFCB000BB0598 /* Info.plist */; };
+		8D4E440C1EADFCCB00BB0598 /* CoreSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E440B1EADFCCB00BB0598 /* CoreSettings.swift */; };
+		8D4E440E1EADFDAA00BB0598 /* AuthorsFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E440D1EADFDAA00BB0598 /* AuthorsFlow.swift */; };
+		8D4E44101EADFDB300BB0598 /* AwardsFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E440F1EADFDB300BB0598 /* AwardsFlow.swift */; };
+		8D4E44121EADFDF900BB0598 /* BooksFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E44111EADFDF900BB0598 /* BooksFlow.swift */; };
+		8D4E44141EADFE0400BB0598 /* RatingsFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E44131EADFE0400BB0598 /* RatingsFlow.swift */; };
+		8D4E44161EADFE1400BB0598 /* ReviewersFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E44151EADFE1400BB0598 /* ReviewersFlow.swift */; };
+		8D4E44181EADFE1D00BB0598 /* ReviewsFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E44171EADFE1D00BB0598 /* ReviewsFlow.swift */; };
+		8D4E441A1EADFE2800BB0598 /* TutorialsFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E44191EADFE2800BB0598 /* TutorialsFlow.swift */; };
+		8D4E441D1EADFE7300BB0598 /* Authors.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E441F1EADFE7300BB0598 /* Authors.storyboard */; };
+		8D4E44221EADFE8300BB0598 /* Awards.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E44241EADFE8300BB0598 /* Awards.storyboard */; };
+		8D4E44271EADFEA200BB0598 /* Ratings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E44291EADFEA200BB0598 /* Ratings.storyboard */; };
+		8D4E442C1EADFEAE00BB0598 /* Reviewers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E442E1EADFEAE00BB0598 /* Reviewers.storyboard */; };
+		8D4E44311EADFEBB00BB0598 /* Reviews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E44331EADFEBB00BB0598 /* Reviews.storyboard */; };
+		8D4E44361EADFECB00BB0598 /* Tutorials.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E44381EADFECB00BB0598 /* Tutorials.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +51,6 @@
 /* Begin PBXFileReference section */
 		8D4E437C1EAD130A00BB0598 /* Ezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4E437F1EAD130A00BB0598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D4E438B1EAD130A00BB0598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D4E43901EAD130A00BB0598 /* EzyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4E43941EAD130A00BB0598 /* EzyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzyTests.swift; sourceTree = "<group>"; };
 		8D4E43961EAD130A00BB0598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +60,22 @@
 		8D4E43EF1EADFA2A00BB0598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Books.storyboard; sourceTree = "<group>"; };
 		8D4E43F41EADFA2A00BB0598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D4E44031EADFA3E00BB0598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D4E44051EADFC6600BB0598 /* CoreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreService.swift; sourceTree = "<group>"; };
+		8D4E44091EADFCB000BB0598 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4E440B1EADFCCB00BB0598 /* CoreSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreSettings.swift; sourceTree = "<group>"; };
+		8D4E440D1EADFDAA00BB0598 /* AuthorsFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorsFlow.swift; sourceTree = "<group>"; };
+		8D4E440F1EADFDB300BB0598 /* AwardsFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwardsFlow.swift; sourceTree = "<group>"; };
+		8D4E44111EADFDF900BB0598 /* BooksFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksFlow.swift; sourceTree = "<group>"; };
+		8D4E44131EADFE0400BB0598 /* RatingsFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingsFlow.swift; sourceTree = "<group>"; };
+		8D4E44151EADFE1400BB0598 /* ReviewersFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewersFlow.swift; sourceTree = "<group>"; };
+		8D4E44171EADFE1D00BB0598 /* ReviewsFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsFlow.swift; sourceTree = "<group>"; };
+		8D4E44191EADFE2800BB0598 /* TutorialsFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialsFlow.swift; sourceTree = "<group>"; };
+		8D4E441E1EADFE7300BB0598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Authors.storyboard; sourceTree = "<group>"; };
+		8D4E44231EADFE8300BB0598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Awards.storyboard; sourceTree = "<group>"; };
+		8D4E44281EADFEA200BB0598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Ratings.storyboard; sourceTree = "<group>"; };
+		8D4E442D1EADFEAE00BB0598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Reviewers.storyboard; sourceTree = "<group>"; };
+		8D4E44321EADFEBB00BB0598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Reviews.storyboard; sourceTree = "<group>"; };
+		8D4E44371EADFECB00BB0598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Tutorials.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +131,7 @@
 				8D4E43C21EADF83300BB0598 /* Services */,
 				8D4E43C31EADF83300BB0598 /* Settings */,
 				8D4E437F1EAD130A00BB0598 /* AppDelegate.swift */,
-				8D4E438B1EAD130A00BB0598 /* Info.plist */,
+				8D4E44091EADFCB000BB0598 /* Info.plist */,
 			);
 			path = Ezy;
 			sourceTree = "<group>";
@@ -149,6 +180,7 @@
 		8D4E43C21EADF83300BB0598 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				8D4E44051EADFC6600BB0598 /* CoreService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -156,6 +188,7 @@
 		8D4E43C31EADF83300BB0598 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				8D4E440B1EADFCCB00BB0598 /* CoreSettings.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -165,6 +198,7 @@
 			children = (
 				8D4E43E61EADFA2A00BB0598 /* Logic */,
 				8D4E43E71EADFA2A00BB0598 /* UserInterface */,
+				8D4E440D1EADFDAA00BB0598 /* AuthorsFlow.swift */,
 			);
 			path = Authors;
 			sourceTree = "<group>";
@@ -179,6 +213,7 @@
 		8D4E43E71EADFA2A00BB0598 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
+				8D4E441F1EADFE7300BB0598 /* Authors.storyboard */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -188,6 +223,7 @@
 			children = (
 				8D4E43E91EADFA2A00BB0598 /* Logic */,
 				8D4E43EA1EADFA2A00BB0598 /* UserInterface */,
+				8D4E440F1EADFDB300BB0598 /* AwardsFlow.swift */,
 			);
 			path = Awards;
 			sourceTree = "<group>";
@@ -202,6 +238,7 @@
 		8D4E43EA1EADFA2A00BB0598 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
+				8D4E44241EADFE8300BB0598 /* Awards.storyboard */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -211,6 +248,7 @@
 			children = (
 				8D4E43EC1EADFA2A00BB0598 /* Logic */,
 				8D4E43ED1EADFA2A00BB0598 /* UserInterface */,
+				8D4E44111EADFDF900BB0598 /* BooksFlow.swift */,
 			);
 			path = Books;
 			sourceTree = "<group>";
@@ -233,17 +271,9 @@
 		8D4E43F01EADFA2A00BB0598 /* Launch */ = {
 			isa = PBXGroup;
 			children = (
-				8D4E43F11EADFA2A00BB0598 /* Logic */,
 				8D4E43F21EADFA2A00BB0598 /* UserInterface */,
 			);
 			path = Launch;
-			sourceTree = "<group>";
-		};
-		8D4E43F11EADFA2A00BB0598 /* Logic */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Logic;
 			sourceTree = "<group>";
 		};
 		8D4E43F21EADFA2A00BB0598 /* UserInterface */ = {
@@ -259,6 +289,7 @@
 			children = (
 				8D4E43F61EADFA2A00BB0598 /* Logic */,
 				8D4E43F71EADFA2A00BB0598 /* UserInterface */,
+				8D4E44131EADFE0400BB0598 /* RatingsFlow.swift */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -273,6 +304,7 @@
 		8D4E43F71EADFA2A00BB0598 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
+				8D4E44291EADFEA200BB0598 /* Ratings.storyboard */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -282,6 +314,7 @@
 			children = (
 				8D4E43F91EADFA2A00BB0598 /* Logic */,
 				8D4E43FA1EADFA2A00BB0598 /* UserInterface */,
+				8D4E44151EADFE1400BB0598 /* ReviewersFlow.swift */,
 			);
 			path = Reviewers;
 			sourceTree = "<group>";
@@ -296,6 +329,7 @@
 		8D4E43FA1EADFA2A00BB0598 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
+				8D4E442E1EADFEAE00BB0598 /* Reviewers.storyboard */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -305,6 +339,7 @@
 			children = (
 				8D4E43FC1EADFA2A00BB0598 /* Logic */,
 				8D4E43FD1EADFA2A00BB0598 /* UserInterface */,
+				8D4E44171EADFE1D00BB0598 /* ReviewsFlow.swift */,
 			);
 			path = Reviews;
 			sourceTree = "<group>";
@@ -319,6 +354,7 @@
 		8D4E43FD1EADFA2A00BB0598 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
+				8D4E44331EADFEBB00BB0598 /* Reviews.storyboard */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -328,6 +364,7 @@
 			children = (
 				8D4E43FF1EADFA2A00BB0598 /* Logic */,
 				8D4E44001EADFA2A00BB0598 /* UserInterface */,
+				8D4E44191EADFE2800BB0598 /* TutorialsFlow.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -342,6 +379,7 @@
 		8D4E44001EADFA2A00BB0598 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
+				8D4E44381EADFECB00BB0598 /* Tutorials.storyboard */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -456,9 +494,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4E44221EADFE8300BB0598 /* Awards.storyboard in Resources */,
+				8D4E441D1EADFE7300BB0598 /* Authors.storyboard in Resources */,
+				8D4E44271EADFEA200BB0598 /* Ratings.storyboard in Resources */,
+				8D4E440A1EADFCB000BB0598 /* Info.plist in Resources */,
+				8D4E44311EADFEBB00BB0598 /* Reviews.storyboard in Resources */,
 				8D4E44011EADFA2A00BB0598 /* Books.storyboard in Resources */,
+				8D4E44361EADFECB00BB0598 /* Tutorials.storyboard in Resources */,
 				8D4E44041EADFA3E00BB0598 /* Assets.xcassets in Resources */,
 				8D4E44021EADFA2A00BB0598 /* LaunchScreen.storyboard in Resources */,
+				8D4E442C1EADFEAE00BB0598 /* Reviewers.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +528,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4E44121EADFDF900BB0598 /* BooksFlow.swift in Sources */,
+				8D4E441A1EADFE2800BB0598 /* TutorialsFlow.swift in Sources */,
+				8D4E44061EADFC6600BB0598 /* CoreService.swift in Sources */,
+				8D4E44161EADFE1400BB0598 /* ReviewersFlow.swift in Sources */,
+				8D4E44181EADFE1D00BB0598 /* ReviewsFlow.swift in Sources */,
+				8D4E44141EADFE0400BB0598 /* RatingsFlow.swift in Sources */,
+				8D4E44101EADFDB300BB0598 /* AwardsFlow.swift in Sources */,
+				8D4E440C1EADFCCB00BB0598 /* CoreSettings.swift in Sources */,
+				8D4E440E1EADFDAA00BB0598 /* AuthorsFlow.swift in Sources */,
 				8D4E43801EAD130A00BB0598 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,6 +587,54 @@
 				8D4E43F41EADFA2A00BB0598 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8D4E441F1EADFE7300BB0598 /* Authors.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D4E441E1EADFE7300BB0598 /* Base */,
+			);
+			name = Authors.storyboard;
+			sourceTree = "<group>";
+		};
+		8D4E44241EADFE8300BB0598 /* Awards.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D4E44231EADFE8300BB0598 /* Base */,
+			);
+			name = Awards.storyboard;
+			sourceTree = "<group>";
+		};
+		8D4E44291EADFEA200BB0598 /* Ratings.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D4E44281EADFEA200BB0598 /* Base */,
+			);
+			name = Ratings.storyboard;
+			sourceTree = "<group>";
+		};
+		8D4E442E1EADFEAE00BB0598 /* Reviewers.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D4E442D1EADFEAE00BB0598 /* Base */,
+			);
+			name = Reviewers.storyboard;
+			sourceTree = "<group>";
+		};
+		8D4E44331EADFEBB00BB0598 /* Reviews.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D4E44321EADFEBB00BB0598 /* Base */,
+			);
+			name = Reviews.storyboard;
+			sourceTree = "<group>";
+		};
+		8D4E44381EADFECB00BB0598 /* Tutorials.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D4E44371EADFECB00BB0598 /* Base */,
+			);
+			name = Tutorials.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -638,7 +740,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q88X4V867N;
-				INFOPLIST_FILE = Ezy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Ezy/Settings/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iiibplus.Ezy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -652,7 +754,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q88X4V867N;
-				INFOPLIST_FILE = Ezy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Ezy/Settings/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iiibplus.Ezy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
