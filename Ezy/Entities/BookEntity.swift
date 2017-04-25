@@ -1,13 +1,13 @@
 //
-//  AuthorController.swift
+//  BookEntity.swift
 //  Ezy
 //
-//  Created by Andrew Rudski on 4/24/17.
+//  Created by Andrew Rudski on 4/25/17.
 //  Copyright © 2017 IIIBPlus. All rights reserved.
 //
 
 import Foundation
 
-class AuthorController {
+struct BookEntity {
     
 }

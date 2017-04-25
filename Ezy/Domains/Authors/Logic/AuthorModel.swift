@@ -8,6 +8,12 @@
 
 import Foundation
 
+//protocol AuthorModel {
+//    var authors : Array<Author> { get }
+//}
+
+//make data as push.
+
 class AuthorModel {
-    
+    var author : AuthorEntify?
 }
