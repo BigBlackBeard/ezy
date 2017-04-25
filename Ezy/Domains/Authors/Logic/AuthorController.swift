@@ -7,3 +7,5 @@
 //
 
 import Foundation
+
+//bind view to model here
