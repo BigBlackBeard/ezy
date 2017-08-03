@@ -8,6 +8,10 @@
 
 import Foundation
 
-struct AuthorEntify {
+struct AuthorEntity {
+    let firstName : String
+    let middleName : String?
+    let lastName : String
     
+    //refs 
 }

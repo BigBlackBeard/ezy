@@ -9,5 +9,10 @@
 import Foundation
 
 struct ReviewEntiry {
+    let title : String
+    let date : Date
     
+    //refs
+    let book : BookEntity
+    let reviewer : ReviewerEntity
 }

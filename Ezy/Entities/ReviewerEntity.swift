@@ -9,5 +9,7 @@
 import Foundation
 
 struct ReviewerEntity {
-    
+    let firstName : String
+    let middleName : String?
+    let lastName : String
 }

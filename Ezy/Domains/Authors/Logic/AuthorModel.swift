@@ -15,5 +15,5 @@ import Foundation
 //make data as push.
 
 class AuthorModel {
-    var author : AuthorEntify?
+    var author : AuthorEntity?
 }

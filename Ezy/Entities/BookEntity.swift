@@ -9,5 +9,10 @@
 import Foundation
 
 struct BookEntity {
+    let title : String
+    let date : Date
     
+    let author : AuthorEntity
+    
+    //codes
 }
