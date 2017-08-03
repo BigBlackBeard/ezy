@@ -3,17 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8D4E43801EAD130A00BB0598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E437F1EAD130A00BB0598 /* AppDelegate.swift */; };
-		8D4E43821EAD130A00BB0598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E43811EAD130A00BB0598 /* ViewController.swift */; };
-		8D4E43851EAD130A00BB0598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E43831EAD130A00BB0598 /* Main.storyboard */; };
-		8D4E43871EAD130A00BB0598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E43861EAD130A00BB0598 /* Assets.xcassets */; };
-		8D4E438A1EAD130A00BB0598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E43881EAD130A00BB0598 /* LaunchScreen.storyboard */; };
 		8D4E43951EAD130A00BB0598 /* EzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E43941EAD130A00BB0598 /* EzyTests.swift */; };
 		8D4E43A01EAD130A00BB0598 /* EzyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E439F1EAD130A00BB0598 /* EzyUITests.swift */; };
+		8D4E44011EADFA2A00BB0598 /* Books.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E43EE1EADFA2A00BB0598 /* Books.storyboard */; };
+		8D4E44021EADFA2A00BB0598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E43F31EADFA2A00BB0598 /* LaunchScreen.storyboard */; };
+		8D4E44041EADFA3E00BB0598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4E44031EADFA3E00BB0598 /* Assets.xcassets */; };
+		8D4E44061EADFC6600BB0598 /* CoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E44051EADFC6600BB0598 /* CoreService.swift */; };
+		8D4E440C1EADFCCB00BB0598 /* CoreSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E440B1EADFCCB00BB0598 /* CoreSettings.swift */; };
+		8D4E440E1EADFDAA00BB0598 /* AuthorsFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E440D1EADFDAA00BB0598 /* AuthorsFlow.swift */; };
+		8D4E44101EADFDB300BB0598 /* AwardsFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E440F1EADFDB300BB0598 /* AwardsFlow.swift */; };
+		8D4E44121EADFDF900BB0598 /* BooksFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E44111EADFDF900BB0598 /* BooksFlow.swift */; };
+		8D4E44141EADFE0400BB0598 /* RatingsFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E44131EADFE0400BB0598 /* RatingsFlow.swift */; };
+		8D4E44161EADFE1400BB0598 /* ReviewersFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E44151EADFE1400BB0598 /* ReviewersFlow.swift */; };
+		8D4E44181EADFE1D00BB0598 /* ReviewsFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E44171EADFE1D00BB0598 /* ReviewsFlow.swift */; };
+		8D4E441A1EADFE2800BB0598 /* TutorialsFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E44191EADFE2800BB0598 /* TutorialsFlow.swift */; };
+		8D4E443A1EAE02A700BB0598 /* AuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E44391EAE02A700BB0598 /* AuthorView.swift */; };
+		8D4E443C1EAE031500BB0598 /* AuthorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E443B1EAE031500BB0598 /* AuthorController.swift */; };
+		8D4E443E1EAE031B00BB0598 /* AuthorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4E443D1EAE031B00BB0598 /* AuthorModel.swift */; };
+		8DAD7F471EAF2CC600821E66 /* Authors.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAD7F491EAF2CC600821E66 /* Authors.storyboard */; };
+		8DAD7F4C1EAF3B4A00821E66 /* AuthorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD7F4B1EAF3B4A00821E66 /* AuthorEntity.swift */; };
+		8DAD7F4E1EAF3B4F00821E66 /* AwardEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD7F4D1EAF3B4F00821E66 /* AwardEntity.swift */; };
+		8DAD7F501EAF3B5600821E66 /* BookEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD7F4F1EAF3B5600821E66 /* BookEntity.swift */; };
+		8DAD7F521EAF3B7800821E66 /* ReviewEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD7F511EAF3B7800821E66 /* ReviewEntity.swift */; };
+		8DAD7F541EAF3B8100821E66 /* ReviewerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAD7F531EAF3B8100821E66 /* ReviewerEntity.swift */; };
+		8DAD7F571EAF3D0D00821E66 /* Reviewers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAD7F591EAF3D0D00821E66 /* Reviewers.storyboard */; };
+		8DAD7F5C1EAF3D3900821E66 /* Ratings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAD7F5E1EAF3D3900821E66 /* Ratings.storyboard */; };
+		8DAD7F611EAF3D5B00821E66 /* Tutorials.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAD7F631EAF3D5B00821E66 /* Tutorials.storyboard */; };
+		8DAD7F661EAF3D7900821E66 /* Reviews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAD7F681EAF3D7900821E66 /* Reviews.storyboard */; };
+		8DAD7F6B1EAF3D9A00821E66 /* Awards.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAD7F6D1EAF3D9A00821E66 /* Awards.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +58,39 @@
 /* Begin PBXFileReference section */
 		8D4E437C1EAD130A00BB0598 /* Ezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4E437F1EAD130A00BB0598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D4E43811EAD130A00BB0598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D4E43841EAD130A00BB0598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8D4E43861EAD130A00BB0598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8D4E43891EAD130A00BB0598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8D4E438B1EAD130A00BB0598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D4E43901EAD130A00BB0598 /* EzyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4E43941EAD130A00BB0598 /* EzyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzyTests.swift; sourceTree = "<group>"; };
 		8D4E43961EAD130A00BB0598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D4E439B1EAD130A00BB0598 /* EzyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4E439F1EAD130A00BB0598 /* EzyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzyUITests.swift; sourceTree = "<group>"; };
 		8D4E43A11EAD130A00BB0598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4E43EF1EADFA2A00BB0598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Books.storyboard; sourceTree = "<group>"; };
+		8D4E43F41EADFA2A00BB0598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D4E44031EADFA3E00BB0598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D4E44051EADFC6600BB0598 /* CoreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreService.swift; sourceTree = "<group>"; };
+		8D4E440B1EADFCCB00BB0598 /* CoreSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreSettings.swift; sourceTree = "<group>"; };
+		8D4E440D1EADFDAA00BB0598 /* AuthorsFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorsFlow.swift; sourceTree = "<group>"; };
+		8D4E440F1EADFDB300BB0598 /* AwardsFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwardsFlow.swift; sourceTree = "<group>"; };
+		8D4E44111EADFDF900BB0598 /* BooksFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksFlow.swift; sourceTree = "<group>"; };
+		8D4E44131EADFE0400BB0598 /* RatingsFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingsFlow.swift; sourceTree = "<group>"; };
+		8D4E44151EADFE1400BB0598 /* ReviewersFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewersFlow.swift; sourceTree = "<group>"; };
+		8D4E44171EADFE1D00BB0598 /* ReviewsFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsFlow.swift; sourceTree = "<group>"; };
+		8D4E44191EADFE2800BB0598 /* TutorialsFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialsFlow.swift; sourceTree = "<group>"; };
+		8D4E44391EAE02A700BB0598 /* AuthorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorView.swift; sourceTree = "<group>"; };
+		8D4E443B1EAE031500BB0598 /* AuthorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorController.swift; sourceTree = "<group>"; };
+		8D4E443D1EAE031B00BB0598 /* AuthorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorModel.swift; sourceTree = "<group>"; };
+		8D4E443F1EAF2C2A00BB0598 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DAD7F481EAF2CC600821E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Authors.storyboard; sourceTree = "<group>"; };
+		8DAD7F4B1EAF3B4A00821E66 /* AuthorEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorEntity.swift; sourceTree = "<group>"; };
+		8DAD7F4D1EAF3B4F00821E66 /* AwardEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwardEntity.swift; sourceTree = "<group>"; };
+		8DAD7F4F1EAF3B5600821E66 /* BookEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookEntity.swift; sourceTree = "<group>"; };
+		8DAD7F511EAF3B7800821E66 /* ReviewEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewEntity.swift; sourceTree = "<group>"; };
+		8DAD7F531EAF3B8100821E66 /* ReviewerEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewerEntity.swift; sourceTree = "<group>"; };
+		8DAD7F581EAF3D0D00821E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Reviewers.storyboard; sourceTree = "<group>"; };
+		8DAD7F5D1EAF3D3900821E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Ratings.storyboard; sourceTree = "<group>"; };
+		8DAD7F621EAF3D5B00821E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Tutorials.storyboard; sourceTree = "<group>"; };
+		8DAD7F671EAF3D7900821E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Reviews.storyboard; sourceTree = "<group>"; };
+		8DAD7F6C1EAF3D9A00821E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Awards.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +141,13 @@
 		8D4E437E1EAD130A00BB0598 /* Ezy */ = {
 			isa = PBXGroup;
 			children = (
+				8D4E43AE1EADF83300BB0598 /* Assets */,
+				8D4E43AF1EADF83300BB0598 /* Domains */,
+				8DAD7F4A1EAF3B1D00821E66 /* Entities */,
+				8D4E43C21EADF83300BB0598 /* Services */,
+				8D4E43C31EADF83300BB0598 /* Settings */,
 				8D4E437F1EAD130A00BB0598 /* AppDelegate.swift */,
-				8D4E43811EAD130A00BB0598 /* ViewController.swift */,
-				8D4E43831EAD130A00BB0598 /* Main.storyboard */,
-				8D4E43861EAD130A00BB0598 /* Assets.xcassets */,
-				8D4E43881EAD130A00BB0598 /* LaunchScreen.storyboard */,
-				8D4E438B1EAD130A00BB0598 /* Info.plist */,
+				8D4E443F1EAF2C2A00BB0598 /* Info.plist */,
 			);
 			path = Ezy;
 			sourceTree = "<group>";
@@ -123,6 +168,251 @@
 				8D4E43A11EAD130A00BB0598 /* Info.plist */,
 			);
 			path = EzyUITests;
+			sourceTree = "<group>";
+		};
+		8D4E43AE1EADF83300BB0598 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E44031EADFA3E00BB0598 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8D4E43AF1EADF83300BB0598 /* Domains */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43E51EADFA2A00BB0598 /* Authors */,
+				8D4E43E81EADFA2A00BB0598 /* Awards */,
+				8D4E43EB1EADFA2A00BB0598 /* Books */,
+				8D4E43F01EADFA2A00BB0598 /* Launch */,
+				8D4E43F51EADFA2A00BB0598 /* Ratings */,
+				8D4E43F81EADFA2A00BB0598 /* Reviewers */,
+				8D4E43FB1EADFA2A00BB0598 /* Reviews */,
+				8D4E43FE1EADFA2A00BB0598 /* Tutorials */,
+			);
+			path = Domains;
+			sourceTree = "<group>";
+		};
+		8D4E43C21EADF83300BB0598 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E44051EADFC6600BB0598 /* CoreService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8D4E43C31EADF83300BB0598 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E440B1EADFCCB00BB0598 /* CoreSettings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		8D4E43E51EADFA2A00BB0598 /* Authors */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43E61EADFA2A00BB0598 /* Logic */,
+				8D4E43E71EADFA2A00BB0598 /* UserInterface */,
+				8D4E440D1EADFDAA00BB0598 /* AuthorsFlow.swift */,
+			);
+			path = Authors;
+			sourceTree = "<group>";
+		};
+		8D4E43E61EADFA2A00BB0598 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E443B1EAE031500BB0598 /* AuthorController.swift */,
+				8D4E443D1EAE031B00BB0598 /* AuthorModel.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8D4E43E71EADFA2A00BB0598 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				8DAD7F491EAF2CC600821E66 /* Authors.storyboard */,
+				8D4E44391EAE02A700BB0598 /* AuthorView.swift */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		8D4E43E81EADFA2A00BB0598 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43E91EADFA2A00BB0598 /* Logic */,
+				8D4E43EA1EADFA2A00BB0598 /* UserInterface */,
+				8D4E440F1EADFDB300BB0598 /* AwardsFlow.swift */,
+			);
+			path = Awards;
+			sourceTree = "<group>";
+		};
+		8D4E43E91EADFA2A00BB0598 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8D4E43EA1EADFA2A00BB0598 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				8DAD7F6D1EAF3D9A00821E66 /* Awards.storyboard */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		8D4E43EB1EADFA2A00BB0598 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43EC1EADFA2A00BB0598 /* Logic */,
+				8D4E43ED1EADFA2A00BB0598 /* UserInterface */,
+				8D4E44111EADFDF900BB0598 /* BooksFlow.swift */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		8D4E43EC1EADFA2A00BB0598 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8D4E43ED1EADFA2A00BB0598 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43EE1EADFA2A00BB0598 /* Books.storyboard */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		8D4E43F01EADFA2A00BB0598 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43F21EADFA2A00BB0598 /* UserInterface */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		8D4E43F21EADFA2A00BB0598 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43F31EADFA2A00BB0598 /* LaunchScreen.storyboard */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		8D4E43F51EADFA2A00BB0598 /* Ratings */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43F61EADFA2A00BB0598 /* Logic */,
+				8D4E43F71EADFA2A00BB0598 /* UserInterface */,
+				8D4E44131EADFE0400BB0598 /* RatingsFlow.swift */,
+			);
+			path = Ratings;
+			sourceTree = "<group>";
+		};
+		8D4E43F61EADFA2A00BB0598 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8D4E43F71EADFA2A00BB0598 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				8DAD7F5E1EAF3D3900821E66 /* Ratings.storyboard */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		8D4E43F81EADFA2A00BB0598 /* Reviewers */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43F91EADFA2A00BB0598 /* Logic */,
+				8D4E43FA1EADFA2A00BB0598 /* UserInterface */,
+				8D4E44151EADFE1400BB0598 /* ReviewersFlow.swift */,
+			);
+			path = Reviewers;
+			sourceTree = "<group>";
+		};
+		8D4E43F91EADFA2A00BB0598 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8D4E43FA1EADFA2A00BB0598 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				8DAD7F591EAF3D0D00821E66 /* Reviewers.storyboard */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		8D4E43FB1EADFA2A00BB0598 /* Reviews */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43FC1EADFA2A00BB0598 /* Logic */,
+				8D4E43FD1EADFA2A00BB0598 /* UserInterface */,
+				8D4E44171EADFE1D00BB0598 /* ReviewsFlow.swift */,
+			);
+			path = Reviews;
+			sourceTree = "<group>";
+		};
+		8D4E43FC1EADFA2A00BB0598 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8D4E43FD1EADFA2A00BB0598 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				8DAD7F681EAF3D7900821E66 /* Reviews.storyboard */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		8D4E43FE1EADFA2A00BB0598 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				8D4E43FF1EADFA2A00BB0598 /* Logic */,
+				8D4E44001EADFA2A00BB0598 /* UserInterface */,
+				8D4E44191EADFE2800BB0598 /* TutorialsFlow.swift */,
+			);
+			path = Tutorials;
+			sourceTree = "<group>";
+		};
+		8D4E43FF1EADFA2A00BB0598 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		8D4E44001EADFA2A00BB0598 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				8DAD7F631EAF3D5B00821E66 /* Tutorials.storyboard */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		8DAD7F4A1EAF3B1D00821E66 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8DAD7F4B1EAF3B4A00821E66 /* AuthorEntity.swift */,
+				8DAD7F4D1EAF3B4F00821E66 /* AwardEntity.swift */,
+				8DAD7F4F1EAF3B5600821E66 /* BookEntity.swift */,
+				8DAD7F511EAF3B7800821E66 /* ReviewEntity.swift */,
+				8DAD7F531EAF3B8100821E66 /* ReviewerEntity.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +478,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = IIIBPlus;
 				TargetAttributes = {
 					8D4E437B1EAD130A00BB0598 = {
@@ -211,7 +501,7 @@
 				};
 			};
 			buildConfigurationList = 8D4E43771EAD130A00BB0598 /* Build configuration list for PBXProject "Ezy" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -235,9 +525,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4E438A1EAD130A00BB0598 /* LaunchScreen.storyboard in Resources */,
-				8D4E43871EAD130A00BB0598 /* Assets.xcassets in Resources */,
-				8D4E43851EAD130A00BB0598 /* Main.storyboard in Resources */,
+				8D4E44011EADFA2A00BB0598 /* Books.storyboard in Resources */,
+				8DAD7F471EAF2CC600821E66 /* Authors.storyboard in Resources */,
+				8D4E44041EADFA3E00BB0598 /* Assets.xcassets in Resources */,
+				8DAD7F661EAF3D7900821E66 /* Reviews.storyboard in Resources */,
+				8DAD7F571EAF3D0D00821E66 /* Reviewers.storyboard in Resources */,
+				8DAD7F611EAF3D5B00821E66 /* Tutorials.storyboard in Resources */,
+				8DAD7F5C1EAF3D3900821E66 /* Ratings.storyboard in Resources */,
+				8D4E44021EADFA2A00BB0598 /* LaunchScreen.storyboard in Resources */,
+				8DAD7F6B1EAF3D9A00821E66 /* Awards.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +558,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4E43821EAD130A00BB0598 /* ViewController.swift in Sources */,
+				8D4E44121EADFDF900BB0598 /* BooksFlow.swift in Sources */,
+				8D4E441A1EADFE2800BB0598 /* TutorialsFlow.swift in Sources */,
+				8D4E443E1EAE031B00BB0598 /* AuthorModel.swift in Sources */,
+				8DAD7F501EAF3B5600821E66 /* BookEntity.swift in Sources */,
+				8D4E44061EADFC6600BB0598 /* CoreService.swift in Sources */,
+				8DAD7F4E1EAF3B4F00821E66 /* AwardEntity.swift in Sources */,
+				8DAD7F521EAF3B7800821E66 /* ReviewEntity.swift in Sources */,
+				8D4E44161EADFE1400BB0598 /* ReviewersFlow.swift in Sources */,
+				8D4E44181EADFE1D00BB0598 /* ReviewsFlow.swift in Sources */,
+				8D4E44141EADFE0400BB0598 /* RatingsFlow.swift in Sources */,
+				8DAD7F4C1EAF3B4A00821E66 /* AuthorEntity.swift in Sources */,
+				8D4E44101EADFDB300BB0598 /* AwardsFlow.swift in Sources */,
+				8D4E443A1EAE02A700BB0598 /* AuthorView.swift in Sources */,
+				8D4E443C1EAE031500BB0598 /* AuthorController.swift in Sources */,
+				8D4E440C1EADFCCB00BB0598 /* CoreSettings.swift in Sources */,
+				8D4E440E1EADFDAA00BB0598 /* AuthorsFlow.swift in Sources */,
 				8D4E43801EAD130A00BB0598 /* AppDelegate.swift in Sources */,
+				8DAD7F541EAF3B8100821E66 /* ReviewerEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,20 +611,68 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8D4E43831EAD130A00BB0598 /* Main.storyboard */ = {
+		8D4E43EE1EADFA2A00BB0598 /* Books.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8D4E43841EAD130A00BB0598 /* Base */,
+				8D4E43EF1EADFA2A00BB0598 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Books.storyboard;
 			sourceTree = "<group>";
 		};
-		8D4E43881EAD130A00BB0598 /* LaunchScreen.storyboard */ = {
+		8D4E43F31EADFA2A00BB0598 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8D4E43891EAD130A00BB0598 /* Base */,
+				8D4E43F41EADFA2A00BB0598 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8DAD7F491EAF2CC600821E66 /* Authors.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DAD7F481EAF2CC600821E66 /* Base */,
+			);
+			name = Authors.storyboard;
+			sourceTree = "<group>";
+		};
+		8DAD7F591EAF3D0D00821E66 /* Reviewers.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DAD7F581EAF3D0D00821E66 /* Base */,
+			);
+			name = Reviewers.storyboard;
+			sourceTree = "<group>";
+		};
+		8DAD7F5E1EAF3D3900821E66 /* Ratings.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DAD7F5D1EAF3D3900821E66 /* Base */,
+			);
+			name = Ratings.storyboard;
+			sourceTree = "<group>";
+		};
+		8DAD7F631EAF3D5B00821E66 /* Tutorials.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DAD7F621EAF3D5B00821E66 /* Base */,
+			);
+			name = Tutorials.storyboard;
+			sourceTree = "<group>";
+		};
+		8DAD7F681EAF3D7900821E66 /* Reviews.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DAD7F671EAF3D7900821E66 /* Base */,
+			);
+			name = Reviews.storyboard;
+			sourceTree = "<group>";
+		};
+		8DAD7F6D1EAF3D9A00821E66 /* Awards.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DAD7F6C1EAF3D9A00821E66 /* Base */,
+			);
+			name = Awards.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -328,7 +688,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -336,7 +698,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -379,7 +745,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -387,7 +755,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -418,11 +790,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q88X4V867N;
-				INFOPLIST_FILE = Ezy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Ezy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iiibplus.Ezy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -431,11 +804,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q88X4V867N;
-				INFOPLIST_FILE = Ezy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Ezy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iiibplus.Ezy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -516,6 +890,7 @@
 				8D4E43A61EAD130A00BB0598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D4E43A71EAD130A00BB0598 /* Build configuration list for PBXNativeTarget "EzyTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +899,7 @@
 				8D4E43A91EAD130A00BB0598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D4E43AA1EAD130A00BB0598 /* Build configuration list for PBXNativeTarget "EzyUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +908,7 @@
 				8D4E43AC1EAD130A00BB0598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
